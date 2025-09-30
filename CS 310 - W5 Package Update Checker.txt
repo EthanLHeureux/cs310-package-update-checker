@@ -1,0 +1,12 @@
+1.)How did you get the list of packages?
+    apt list --upgradable. 
+    This lists all programs with upgrades available.
+
+2.)What is the crontab sequence to run the script?
+    "0 2 * * 0 $SCRIPT_PATH". 
+    This says to run $SCRIPT_PATH every week at 2am.
+    $SCRIPT_PATH is the full path to the ran script.
+
+3.)Since this script would require root, how do you install a crontab for root?
+    using "sudo crontab". 
+    This enabled the crontab command to be ran at the sudo/root/admin level.
